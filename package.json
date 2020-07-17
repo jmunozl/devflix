@@ -1,0 +1,31 @@
+{
+  "name": "devflix",
+  "version": "0.1.0",
+  "description": "A Platform to react all the content",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "keywords": [
+    "livingcoding",
+    "tech",
+    "content",
+    "javascript",
+    "node"
+  ],
+  "author": "Jmunozl",
+  "license": "(MIT)",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
